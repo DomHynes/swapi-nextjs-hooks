@@ -1,0 +1,45 @@
+{
+  "name": "nextjs-graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node --project=tsconfig.server.json server",
+    "build": "next build",
+    "start": "next start",
+    "generate": "graphql-codegen --config codegen.yml"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.16.1",
+    "@types/graphql": "^14.2.0",
+    "@zeit/next-typescript": "^1.1.1",
+    "babel-plugin-import-graphql": "^2.7.0",
+    "express": "^4.17.1",
+    "graphql": "^14.3.1",
+    "graphql-hooks": "^3.5.0",
+    "graphql-hooks-memcache": "^1.2.0",
+    "isomorphic-unfetch": "^3.0.0",
+    "next": "^8.1.0",
+    "next-routes": "^1.4.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "rebass": "^3.1.1",
+    "styled-components": "^4.2.1",
+    "styled-system": "^4.2.4"
+  },
+  "devDependencies": {
+    "@graphql-codegen/cli": "^1.2.0",
+    "@graphql-codegen/typescript": "1.2.0",
+    "@graphql-codegen/typescript-graphql-files-modules": "1.2.0",
+    "@graphql-codegen/typescript-operations": "1.2.0",
+    "@types/next": "^8.0.5",
+    "@types/rebass": "^3.0.4",
+    "raw-loader": "^2.0.0",
+    "ts-node": "^8.2.0",
+    "ts-node-dev": "^1.0.0-pre.39",
+    "typescript": "^3.5.1"
+  }
+}

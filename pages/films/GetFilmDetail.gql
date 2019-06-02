@@ -1,0 +1,16 @@
+query FILM_DETAIL($id: ID) {
+  Film(id: $id) {
+    title
+    releaseDate
+    openingCrawl
+    characters {
+      name
+      species {
+        name
+      }
+      homeworld {
+        name
+      }
+    }
+  }
+}

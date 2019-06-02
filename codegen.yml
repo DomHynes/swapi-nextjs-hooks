@@ -1,0 +1,9 @@
+overwrite: true
+schema: "https://swapi.graph.cool"
+documents: "./pages/**/*.gql.tsx"
+generates:
+  generated/graphql.d.ts:
+    plugins:
+      - "typescript"
+      - "typescript-operations"
+      - "typescript-graphql-files-modules"
