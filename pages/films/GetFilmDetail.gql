@@ -1,9 +1,12 @@
 query FILM_DETAIL($id: ID) {
   Film(id: $id) {
+    id
     title
     releaseDate
-    openingCrawl
     characters {
+      _filmsMeta {
+        count
+      }
       name
       species {
         name

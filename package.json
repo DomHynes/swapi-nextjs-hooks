@@ -31,12 +31,14 @@
     "styled-system": "^4.2.4"
   },
   "devDependencies": {
+    "@divyenduz/ts-graphql-plugin": "^0.1.0",
     "@graphql-codegen/cli": "^1.2.0",
     "@graphql-codegen/typescript": "1.2.0",
     "@graphql-codegen/typescript-graphql-files-modules": "1.2.0",
     "@graphql-codegen/typescript-operations": "1.2.0",
     "@types/next": "^8.0.5",
     "@types/rebass": "^3.0.4",
+    "prettier": "^1.17.1",
     "raw-loader": "^2.0.0",
     "ts-node": "^8.2.0",
     "ts-node-dev": "^1.0.0-pre.39",

@@ -14,7 +14,12 @@
     "skipLibCheck": true,
     "sourceMap": true,
     "strict": true,
-    "target": "esnext"
+    "target": "esnext",
+    "plugins": [
+      {
+        "name": "@divyenduz/ts-graphql-plugin"
+      }
+    ]
   },
-  "include": ["./types.ts", "./generated/graphql.d.ts"]
+  "include": ["./types.ts", "generated/graphql.d.ts"]
 }

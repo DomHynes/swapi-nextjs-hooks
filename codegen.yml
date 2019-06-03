@@ -1,6 +1,6 @@
 overwrite: true
 schema: "https://swapi.graph.cool"
-documents: "./pages/**/*.gql.tsx"
+documents: "**/*.gql"
 generates:
   generated/graphql.d.ts:
     plugins:

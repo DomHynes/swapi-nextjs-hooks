@@ -1,0 +1,8 @@
+{
+  "schemaPath": "graphql/schema.graphql",
+  "extensions": {
+    "endpoints": {
+      "dev": "https://swapi.graph.cool/"
+    }
+  }
+}
